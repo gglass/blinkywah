@@ -1,0 +1,1696 @@
+# Swedish translation for Wah!Cade.
+# Copyright (C) 2007  Free Software Foundation, Inc.
+# This file is distributed under the same license as the wahcade package.
+# Daniel Nylander <po@danielnylander.se>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.20\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-07-06 14:32+0100\n"
+"PO-Revision-Date: 2007-02-14 18:26+0100\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../exception.py:49
+msgid "<big><b>Error</b></big>"
+msgstr ""
+
+#: ../exception.py:50
+msgid "Bug Detected"
+msgstr ""
+
+#: ../filters.py:291
+#, python-format
+msgid "Error: category info file: [%s] does not exist"
+msgstr "Fel: kategoriinformationsfil: [%s] finns inte"
+
+#: ../filters.py:309
+#, python-format
+msgid "Error: rom path: [%s] does not exist"
+msgstr "Fel: rom-sökvägen: [%s] finns inte"
+
+#: ../filters.py:358
+#, python-format
+msgid "Error: emulator info file: [%s] does not exist"
+msgstr "Fel: emulatorinformationsfil: [%s] finns inte"
+
+#: ../filters.py:359
+msgid "       cannot create initial filters!"
+msgstr "       kan inte skapa initiala filter!"
+
+#: ../filters.py:430
+#, python-format
+msgid "Error: filter file: [%s] does not exist"
+msgstr "Fel: filterfilen: [%s] finns inte"
+
+#: ../filters.py:440
+#, fuzzy, python-format
+msgid "Error: filter file: [%s] invalid (too short!)"
+msgstr "Fel: filterfilen: [%s] finns inte"
+
+#: ../filters.py:662
+#, fuzzy, python-format
+msgid "Error: nms file [%s] does not exist"
+msgstr "Fel: filterfilen: [%s] finns inte"
+
+#: ../joystick.py:32
+msgid "Warning: pygame module not found.  Joysticks not supported"
+msgstr ""
+
+#: ../joystick.py:80
+#, python-format
+msgid "Joystick %s Button %s"
+msgstr ""
+
+#: ../joystick.py:86
+#, fuzzy, python-format
+msgid "Joystick %s "
+msgstr "Styrspak"
+
+#: ../joystick.py:91
+msgid "Up"
+msgstr ""
+
+#: ../joystick.py:92
+msgid "Down"
+msgstr ""
+
+#: ../joystick.py:93 ../glade/layout_editor.glade.h:28
+msgid "Left"
+msgstr "Vänster"
+
+#: ../joystick.py:94 ../glade/layout_editor.glade.h:39
+msgid "Right"
+msgstr "Höger"
+
+#: ../layout_editor.py:78
+msgid "No Wah!Cade config files found.  Run wahcade or wahcade-setup first."
+msgstr ""
+"Inga konfigurationsfiler för Wah!Cade hittades.  Kör wahcade eller wahcade-"
+"setup först."
+
+#: ../layout_editor.py:309
+msgid "Save:"
+msgstr "Spara:"
+
+#: ../layout_editor.py:311
+msgid ""
+"\n"
+"  Wah!Cade Layout"
+msgstr ""
+"\n"
+"  Wah!Cade-layout"
+
+#: ../layout_editor.py:313
+msgid ""
+"\n"
+"  CPViewer Layout"
+msgstr ""
+"\n"
+"  CPViewer-layout"
+
+#: ../layout_editor.py:315
+msgid ""
+"\n"
+"  History Viewer Layout"
+msgstr ""
+"\n"
+"  Historikvisarens layout"
+
+#: ../layout_editor.py:384
+msgid "Open Wah!Cade Layout"
+msgstr "Öppna Wah!Cade-layout"
+
+#: ../layout_editor.py:392
+msgid "Open CP Viewer Layout"
+msgstr "Öppna CP Viewer-layout"
+
+#: ../layout_editor.py:400
+msgid "Open History Viewer Layout"
+msgstr "Öppna historikvisarens layout"
+
+#: ../layout_editor.py:417
+msgid "Save Wah!Cade Layout"
+msgstr "Spara Wah!Cade-layout"
+
+#: ../layout_editor.py:425
+msgid "Save CP Viewer Layout"
+msgstr "Spara CP Viewer-layout"
+
+#: ../layout_editor.py:433
+msgid "Save History Viewer Layout"
+msgstr "Spara historikvisarens layout"
+
+#: ../wahcade-layout-editor.py:47
+msgid ""
+"Use application config location (i.e. wahcade/config instead of the default "
+"~/.wahcade)"
+msgstr ""
+"Använd plats för programkonfiguration (alltså wahcade/config istället för "
+"standardvärdet ~/.wahcade)"
+
+#: ../wahcade-layout-editor.py:52 ../wahcade.py:55
+#, fuzzy
+msgid "Set debug mode (disables psyco)"
+msgstr "Ställ in felsökningsläge (inaktiverar pysco)"
+
+#: ../wahcade.py:45
+msgid "Set windowed mode"
+msgstr "Ställ in fönsterläge"
+
+#: ../wahcade.py:50
+#, fuzzy
+msgid "Set fullscreen mode"
+msgstr "Ställ in helskärmsläge (standard)"
+
+#: ../wahcade.py:60
+msgid "Set to disable all gstreamer use (music / video playback)"
+msgstr ""
+
+#: ../wahcade.py:65
+msgid "Set to disable all pygame use (joysticks)"
+msgstr ""
+
+#: ../wc_common.py:285
+msgid "translator-credits"
+msgstr "Daniel Nylander"
+
+#: ../wc_setup.py:41
+msgid "Mouse Button 1"
+msgstr ""
+
+#: ../wc_setup.py:42
+msgid "Mouse Button 2"
+msgstr ""
+
+#: ../wc_setup.py:43
+msgid "Mouse Button 3"
+msgstr ""
+
+#: ../wc_setup.py:44
+msgid "Mouse Button 4"
+msgstr ""
+
+#: ../wc_setup.py:45
+msgid "Mouse Button 5"
+msgstr ""
+
+#: ../wc_setup.py:46
+msgid "Mouse Button 6"
+msgstr ""
+
+#: ../wc_setup.py:47
+msgid "Mouse Button 7"
+msgstr ""
+
+#: ../wc_setup.py:48
+msgid "Mouse Button 8"
+msgstr ""
+
+#: ../wc_setup.py:49
+msgid "Mouse Button 9"
+msgstr ""
+
+#: ../wc_setup.py:50
+#, fuzzy
+msgid "Mouse Left"
+msgstr "Mus"
+
+#: ../wc_setup.py:51
+#, fuzzy
+msgid "Mouse Right"
+msgstr "Mus"
+
+#: ../wc_setup.py:52
+#, fuzzy
+msgid "Mouse Up"
+msgstr "Mus"
+
+#: ../wc_setup.py:53
+#, fuzzy
+msgid "Mouse Down"
+msgstr "Mus"
+
+#: ../wc_setup.py:54
+msgid "Scroll Wheel Down"
+msgstr ""
+
+#: ../wc_setup.py:55
+msgid "Scroll Wheel Up"
+msgstr ""
+
+#: ../wc_setup.py:70
+#, fuzzy
+msgid "Select an Emulator Template..."
+msgstr "Ställ in körbar emulatorfil"
+
+#: ../wc_setup.py:107
+#, fuzzy
+msgid "Save Emulator File"
+msgstr "Skapa ny emulatorfil"
+
+#: ../wc_setup.py:138
+msgid "Emulator already exists!"
+msgstr ""
+
+#: ../wc_setup.py:237
+#, fuzzy
+msgid "Could not recognize key"
+msgstr "Kunde inte känna igen tangent-/musåtgärd"
+
+#: ../wc_setup.py:272
+msgid "Double-Click a row to change a Key..."
+msgstr "Dubbelklicka på en rad för att ändra en tangent..."
+
+#: ../wc_setup.py:352
+msgid "Are you sure you want to revert to the default settings?"
+msgstr "Är du säker på att du vill återställ standardinställningarna?"
+
+#: ../wc_setup.py:370
+msgid "Are you sure you want to reset the file filters?"
+msgstr "Är du säker på att du vill återställa filfiltren?"
+
+#: ../wc_setup.py:414
+#, python-format
+msgid ""
+"\"%s\" is already assigned to the following actions:\n"
+"%s\n"
+msgstr ""
+"\"%s\" är redan tilldelad till följande åtgärder:\n"
+"%s\n"
+
+#: ../wc_setup.py:417
+msgid "Keep existing assignments?"
+msgstr "Behåll befintliga tilldelningar?"
+
+#: ../wc_setup.py:515 ../glade/wahcade_setup.glade.h:150
+msgid "Set Intro Movie"
+msgstr ""
+
+#: ../wc_setup.py:522 ../glade/wahcade_setup.glade.h:148
+msgid "Set Exit Movie"
+msgstr ""
+
+#: ../wc_setup.py:544
+#, fuzzy, python-format
+msgid "Are you sure you delete this Emulator (%s)?"
+msgstr "Är du säker på att du vill återställa filfiltren?"
+
+#: ../wc_setup.py:582
+#, fuzzy, python-format
+msgid "Are you sure you want to delete this List (%s)?"
+msgstr "Är du säker på att du vill återställa filfiltren?"
+
+#: ../wc_setup.py:641
+msgid "Set Emulator Executable"
+msgstr "Ställ in körbar emulatorfil"
+
+#: ../wc_setup.py:648
+msgid "Set Rom Directory"
+msgstr "Ställ in Rom-katalog"
+
+#: ../wc_setup.py:655
+#, fuzzy
+msgid "Set NMS File"
+msgstr "Ställ in filter"
+
+#: ../wc_setup.py:662
+msgid "Set Screen Saver Movie Directory"
+msgstr "Ställ in filmkatalog för skärmsläckare"
+
+#: ../wc_setup.py:669
+#, fuzzy
+msgid "Set External Screen Saver"
+msgstr "Skärmsläckare"
+
+#: ../wc_setup.py:677
+#, python-format
+msgid "Set Artwork #%s Directory"
+msgstr "Ställ in katalog för Grafik #%s"
+
+#: ../wc_setup.py:684
+msgid "Set Movie Directory"
+msgstr "Ställ in filmkatalog"
+
+#: ../wc_setup.py:697
+#, fuzzy
+msgid "Set External Application"
+msgstr "Externa program"
+
+#: ../wc_setup.py:704
+msgid "Set Mame XML / Data File"
+msgstr "Ställ in Mame XML / datafil"
+
+#: ../wc_setup.py:711
+msgid "Set Mame Category Version File"
+msgstr "Ställ in Mame-kategoriversionsfil"
+
+#: ../wc_setup.py:718
+msgid "Set History Viewer history.dat File"
+msgstr "Ställ in historikvisarens fil history.dat "
+
+#: ../wc_setup.py:725
+msgid "Set History Viewer Layout File"
+msgstr "Ställ in historikvisarens layoutfil "
+
+#: ../wc_setup.py:732
+msgid "Set Control Panel Viewer controls.ini File"
+msgstr "Ställ in kontrollpanelvisarens fil controls.ini"
+
+#: ../wc_setup.py:739
+msgid "Set Control Panel Viewer Layout File"
+msgstr "Ställ in kontrollpanelvisarens layoutfil"
+
+#: ../wc_setup.py:746
+msgid "Please select MAME Emulator first"
+msgstr ""
+
+#: ../wc_setup.py:751
+msgid "Please select valid MAME Application first"
+msgstr ""
+
+#: ../wc_setup.py:759
+#, fuzzy
+msgid "Please Wait. Creating XML File..."
+msgstr "Vänta. Skapar initiala filter..."
+
+#: ../wc_setup.py:800
+msgid "Save changes?"
+msgstr "Spara ändringar?"
+
+#: ../win_filter.py:69
+msgid "Filter"
+msgstr "Filter"
+
+#: ../win_filter.py:77
+msgid "Selected?"
+msgstr "Markerad?"
+
+#: ../win_filter.py:94 ../win_options.py:128
+msgid "No"
+msgstr "Nej"
+
+#: ../win_filter.py:95 ../win_options.py:129
+msgid "Yes"
+msgstr "Ja"
+
+#: ../win_filter.py:96 ../win_options.py:130
+msgid "Only if better than Parent"
+msgstr "Endast om bättre än förälder"
+
+#: ../win_filter.py:98 ../win_options.py:106
+msgid "Display Clones"
+msgstr "Visa kloner"
+
+#: ../win_filter.py:99 ../win_options.py:107
+msgid "Year Filters"
+msgstr "Filter för år"
+
+#: ../win_filter.py:100 ../win_options.py:108
+msgid "Manufacturer Filters"
+msgstr "Filter för tillverkare"
+
+#: ../win_filter.py:101 ../win_options.py:109
+msgid "BIOS Filters"
+msgstr "Filter för BIOS"
+
+#: ../win_filter.py:102 ../win_options.py:110
+msgid "Screen Type Filters"
+msgstr "Filter för skärmtyp"
+
+#: ../win_filter.py:103 ../win_options.py:111
+msgid "Screen Orientation Filters"
+msgstr "Filter för skärmorientering"
+
+#: ../win_filter.py:104 ../win_options.py:112
+msgid "Input Type Filters"
+msgstr "Filter för inmatningstyp"
+
+#: ../win_filter.py:105 ../win_options.py:113
+msgid "General Status Filters"
+msgstr "Filter för allmän status"
+
+#: ../win_filter.py:106 ../win_options.py:114
+msgid "Colour Status Filters"
+msgstr "Filter för färgstatus"
+
+#: ../win_filter.py:107 ../win_options.py:115
+msgid "Sound Status Filters"
+msgstr "Filter för ljudstatus"
+
+#: ../win_filter.py:108 ../win_options.py:116
+msgid "Category Filters"
+msgstr "Kategorifilter"
+
+#: ../win_filter.py:129 ../win_list.py:89
+#, python-format
+msgid "Error: Emulator Ini file: [%s] doesn't exist"
+msgstr "Fel: ini-filen för emulator: [%s] finns inte"
+
+#: ../win_filter.py:142
+msgid "Save filter changes?"
+msgstr "Spara filterändringar?"
+
+#: ../win_filter.py:241
+msgid "List Type must be \"normal\" to generate filters"
+msgstr ""
+
+#: ../win_filter.py:326
+#, fuzzy
+msgid "No Games"
+msgstr "Sök spel"
+
+#: ../win_filter.py:335 ../win_list.py:179 ../win_list.py:195
+#, python-format
+msgid "%s games"
+msgstr ""
+
+#: ../win_list.py:151
+msgid "You must set a rom name"
+msgstr ""
+
+#: ../win_list.py:199 ../win_main.py:1104 ../win_main.py:1372
+msgid "Please Wait. Creating initial filter..."
+msgstr "Vänta. Skapar initiala filter..."
+
+#: ../win_list.py:221
+#, fuzzy
+msgid "Save List changes?"
+msgstr "Spara filterändringar?"
+
+#: ../win_main.py:92
+#, python-format
+msgid "Wah!Cade config files created in: [%s]"
+msgstr "Konfigurationsfiler för Wah!Cade skapade i: [%s]"
+
+#: ../win_main.py:93
+msgid "Restart after configuring (run wahcade-setup or see the README file)."
+msgstr ""
+"Starta om efter konfigurering (kör wahcade-setup eller se filen README)."
+
+#: ../win_main.py:722
+#, python-format
+msgid "Game %s of %s selected"
+msgstr "Spel %s av %s markerat"
+
+#: ../win_main.py:726
+#, python-format
+msgid "%s (Clone of %s)"
+msgstr "%s (Klon av %s)"
+
+#: ../win_main.py:761
+#, python-format
+msgid "Error: wrong screen saver type: [%s]"
+msgstr "Fel: fel skärmsläckartyp: [%s]"
+
+#: ../win_main.py:887
+#, fuzzy, python-format
+msgid "Emulator Executable [%s] does not exist"
+msgstr "Fel: emulatorinformationsfil: [%s] finns inte"
+
+#: ../win_main.py:888
+#, python-format
+msgid "Error: %s"
+msgstr ""
+
+#: ../win_main.py:890
+msgid "Error!"
+msgstr ""
+
+#: ../win_main.py:892
+msgid "Press key to continue..."
+msgstr ""
+
+#: ../win_main.py:901
+msgid "Starting..."
+msgstr "Startar..."
+
+#: ../win_main.py:1032
+#, fuzzy, python-format
+msgid "Error: External Application [%s] does not exist"
+msgstr "Fel: rom-sökvägen: [%s] finns inte"
+
+#: ../win_main.py:1105 ../win_main.py:1373
+msgid "Please Wait"
+msgstr "Vänta"
+
+#: ../win_main.py:1105 ../win_main.py:1373
+msgid "Creating initial filter..."
+msgstr "Skapar initialt filter..."
+
+#: ../win_main.py:1287 ../win_options.py:172
+msgid "Options"
+msgstr "Alternativ"
+
+#: ../win_main.py:1288 ../win_options.py:175
+msgid "Current Setting:"
+msgstr "Nuvarande inställning:"
+
+#: ../win_main.py:1464
+msgid "Warning: Failed to create Music gstreamer objects"
+msgstr ""
+
+#: ../win_main.py:1468
+#, fuzzy, python-format
+msgid "Error: Music Path [%s] does not exist"
+msgstr "Fel: rom-sökvägen: [%s] finns inte"
+
+#: ../win_main.py:1495
+#, python-format
+msgid "Error: Movie Preview Path [%s] does not exist"
+msgstr "Fel: Sökväg för förhandsvisning av film [%s] finns inte"
+
+#: ../win_main.py:1507
+msgid "Warning: Failed to create Video gstreamer objects"
+msgstr ""
+
+#: ../win_options.py:90
+msgid "Select Platform"
+msgstr "Välj plattform"
+
+#: ../win_options.py:91
+msgid "Select Game List"
+msgstr "Välj spellista"
+
+#: ../win_options.py:92
+msgid "Find Game"
+msgstr "Sök spel"
+
+#: ../win_options.py:93
+msgid "Select Random Game"
+msgstr "Välj slumpmässigt spel"
+
+#: ../win_options.py:94
+msgid "Games List Options"
+msgstr "Alternativ för spellista"
+
+#: ../win_options.py:96
+#, fuzzy
+msgid "Music Options"
+msgstr "Alternativ"
+
+#: ../win_options.py:97
+msgid "About..."
+msgstr "Om..."
+
+#: ../win_options.py:98
+msgid "Exit Wah!Cade"
+msgstr "Avsluta Wah!Cade"
+
+#: ../win_options.py:101
+msgid "Add Game to List"
+msgstr "Lägg till spel till listan"
+
+#: ../win_options.py:102
+msgid "Remove Game from List"
+msgstr "Ta bort spel från lista"
+
+#: ../win_options.py:103
+msgid "Generate Filtered List..."
+msgstr "Generera filtrerad lista..."
+
+#: ../win_options.py:104
+msgid "Generate List..."
+msgstr "Generera lista..."
+
+#: ../win_options.py:118
+msgid "Play / Pause"
+msgstr ""
+
+#: ../win_options.py:119
+msgid "Next Track"
+msgstr ""
+
+#: ../win_options.py:120
+msgid "Previous Track"
+msgstr ""
+
+#: ../win_options.py:121
+#, fuzzy
+msgid "Select Track / Directory"
+msgstr "Ställ in Rom-katalog"
+
+#: ../win_options.py:123
+msgid "Exit to Desktop"
+msgstr ""
+
+#: ../win_options.py:124
+msgid "Exit & Reboot"
+msgstr ""
+
+#: ../win_options.py:125
+msgid "Exit & Shutdown"
+msgstr ""
+
+#: ../win_options.py:229 ../win_options.py:268
+msgid "Please Wait..."
+msgstr "Vänta..."
+
+#: ../win_options.py:230
+msgid "Generating new games list..."
+msgstr "Genererar ny spellista..."
+
+#: ../win_options.py:264
+msgid "Show ALL"
+msgstr "Visa ALLA"
+
+#: ../win_options.py:265
+msgid "Show NONE"
+msgstr "Visa INGEN"
+
+#: ../win_options.py:269
+msgid "Generating new filtered games list..."
+msgstr "Genererar ny filtrerad spellista..."
+
+#: ../win_scrsaver.py:107
+msgid "Warning: ScrSaver: Failed to create Video gstreamer objects"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:1
+msgid "\"Wrap Around\" the Games List & Options menu."
+msgstr "\"Radbryt\" spellistan och alternativmenyn."
+
+#: ../glade/wahcade_setup.glade.h:2
+#, fuzzy
+msgid "# Games"
+msgstr "Sök spel"
+
+#: ../glade/wahcade_setup.glade.h:3
+msgid "<b>Emulator</b>"
+msgstr "<b>Emulator</b>"
+
+#: ../glade/wahcade_setup.glade.h:4
+#, fuzzy
+msgid "<b>Test:</b>"
+msgstr "<b>Emulator</b>"
+
+#: ../glade/wahcade_setup.glade.h:5
+#, fuzzy
+msgid "<b>or</b>"
+msgstr "<b>Emulator</b>"
+
+#: ../glade/wahcade_setup.glade.h:6
+#, fuzzy
+msgid "Add Emulator"
+msgstr "Lägg till ny emulator"
+
+#: ../glade/wahcade_setup.glade.h:7
+#, fuzzy
+msgid "Add New Emulator"
+msgstr "Lägg till ny emulator"
+
+#: ../glade/wahcade_setup.glade.h:8
+#, fuzzy
+msgid "Add new List"
+msgstr "Lägg till spel till listan"
+
+#: ../glade/wahcade_setup.glade.h:9
+msgid "Also see the \"Display Mouse Cursor\" option (Wah!Cade Tab)"
+msgstr "Se även alternativet \"Visa muspekare\" (Wah!Cade-fliken)"
+
+#: ../glade/wahcade_setup.glade.h:10
+msgid "Also see the \"Use Mouse\" option (Keys Tab)"
+msgstr "Se även alternativet \"Använd mus\" (Tangenter-fliken)"
+
+#: ../glade/wahcade_setup.glade.h:11
+#, fuzzy
+msgid "Alternative #1"
+msgstr "Kommandorad"
+
+#: ../glade/wahcade_setup.glade.h:12
+#, fuzzy
+msgid "Alternative #2"
+msgstr "Kommandorad"
+
+#: ../glade/wahcade_setup.glade.h:13
+msgid "Application"
+msgstr "Program"
+
+#: ../glade/wahcade_setup.glade.h:14
+msgid "Application #1"
+msgstr "Program #1"
+
+#: ../glade/wahcade_setup.glade.h:15
+msgid "Application #2"
+msgstr "Program #2"
+
+#: ../glade/wahcade_setup.glade.h:16
+msgid "Application #3"
+msgstr "Program #3"
+
+#: ../glade/wahcade_setup.glade.h:17
+#, fuzzy
+msgid "Application Parameters"
+msgstr "Program"
+
+#: ../glade/wahcade_setup.glade.h:18
+msgid "Artwork"
+msgstr "cc"
+
+#: ../glade/wahcade_setup.glade.h:19
+msgid "Artwork # that Movies will be displayed in"
+msgstr "Grafik # som Filmer kommer att visas i"
+
+#: ../glade/wahcade_setup.glade.h:20
+msgid "Artwork #1"
+msgstr "Grafik #1"
+
+#: ../glade/wahcade_setup.glade.h:21
+msgid "Artwork #10"
+msgstr "Grafik #10"
+
+#: ../glade/wahcade_setup.glade.h:22
+msgid "Artwork #2"
+msgstr "Grafik #2"
+
+#: ../glade/wahcade_setup.glade.h:23
+msgid "Artwork #3"
+msgstr "Grafik #3"
+
+#: ../glade/wahcade_setup.glade.h:24
+msgid "Artwork #4"
+msgstr "Grafik #4"
+
+#: ../glade/wahcade_setup.glade.h:25
+msgid "Artwork #5"
+msgstr "Grafik #5"
+
+#: ../glade/wahcade_setup.glade.h:26
+msgid "Artwork #6"
+msgstr "Grafik #6"
+
+#: ../glade/wahcade_setup.glade.h:27
+msgid "Artwork #7"
+msgstr "Grafik #7"
+
+#: ../glade/wahcade_setup.glade.h:28
+msgid "Artwork #8"
+msgstr "Grafik #8"
+
+#: ../glade/wahcade_setup.glade.h:29
+msgid "Artwork #9"
+msgstr "Grafik #9"
+
+#: ../glade/wahcade_setup.glade.h:30
+msgid "Auto Launch Apps"
+msgstr "Autostarta program"
+
+#: ../glade/wahcade_setup.glade.h:31
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: ../glade/wahcade_setup.glade.h:32
+msgid "Category / Version File"
+msgstr "Kategori / Versionsfil"
+
+#: ../glade/wahcade_setup.glade.h:33
+msgid "Check this for list to be included in Next / Previous List selection"
+msgstr "Kryssa denna för att inkluderas i Nästa / Föregående"
+
+#: ../glade/wahcade_setup.glade.h:34
+msgid "Command Line"
+msgstr "Kommandorad"
+
+#: ../glade/wahcade_setup.glade.h:35
+#, fuzzy
+msgid ""
+"Command Line Format, where:\n"
+"  [name] is replaced by the selected Rom name\n"
+"  [rompath] is replaced by the Rom Directory\n"
+"  [romext] is replaced by the Rom Extension\n"
+"  [autorotate] will rotate the screen (Mame only)\n"
+"  {minimize} will minimize wah!cade after launching the application\n"
+"  {music} allows music playback to continue after launching the application\n"
+"\n"
+".e.g.  [name].[romext] -p [rompath] would be:\n"
+"  asteroids.zip -p /home/user/some/path\n"
+msgstr ""
+"Kommandoradsformat, där:\n"
+"  [name] ersätts av det angivna Rom-namnet\n"
+"  [rompath] ersätts av Rom-katalogen\n"
+"  [romext] ersätts av Rom-ändelsen\n"
+"\n"
+"t.ex.  [name].[romext] -p [rompath] skulle bli:\n"
+"  asteroids.zip -p /home/användare/någon/sökväg\n"
+
+#: ../glade/wahcade_setup.glade.h:46
+#, fuzzy
+msgid ""
+"Command Line Format, where:\n"
+"  [name] is replaced by the selected Rom name\n"
+"  [rompath] is replaced by the Rom Directory\n"
+"  [romext] is replaced by the Rom Extension\n"
+"  {minimize} will minimize wah!cade after launching the application\n"
+"\n"
+".e.g.  [name].[romext] -p [rompath] would be:\n"
+"  asteroids.zip -p /home/user/some/path\n"
+msgstr ""
+"Kommandoradsformat, där:\n"
+"  [name] ersätts av det angivna Rom-namnet\n"
+"  [rompath] ersätts av Rom-katalogen\n"
+"  [romext] ersätts av Rom-ändelsen\n"
+"\n"
+"t.ex.  [name].[romext] -p [rompath] skulle bli:\n"
+"  asteroids.zip -p /home/användare/någon/sökväg\n"
+
+#: ../glade/wahcade_setup.glade.h:55
+msgid "Control Panel Viewer"
+msgstr "Kontrollpanelvisare"
+
+#: ../glade/wahcade_setup.glade.h:56
+msgid "Controls File"
+msgstr "Kontrollerfil"
+
+#: ../glade/wahcade_setup.glade.h:57
+msgid "Correctly Scale Images"
+msgstr "Skala bilder korrekt"
+
+#: ../glade/wahcade_setup.glade.h:58
+msgid "Cycle List"
+msgstr "Växla lista"
+
+#: ../glade/wahcade_setup.glade.h:59
+msgid "Data File"
+msgstr "Datafil"
+
+#: ../glade/wahcade_setup.glade.h:60
+#, fuzzy
+msgid "Delay (secs)"
+msgstr "Filmfördröjning (sekunder)"
+
+#: ../glade/wahcade_setup.glade.h:61
+#, fuzzy
+msgid "Delete this List"
+msgstr "Välj spellista"
+
+#: ../glade/wahcade_setup.glade.h:62
+msgid ""
+"Directory for Movies that will be used in the layout.\n"
+"(also see Wah!Cade Layout Editor)"
+msgstr ""
+"Katalog för filmer som kommer att användas i layouten.\n"
+"(se även Layoutredigerare för Wah!Cade)"
+
+#: ../glade/wahcade_setup.glade.h:64
+msgid ""
+"Directory for artwork that will be used in the layouts Artwork#1 image.\n"
+"(also see Wah!Cade Layout Editor)"
+msgstr ""
+"Katalog för grafik som kommer att användas i layouterna Grafik#1 bild.\n"
+"(se även Layoutredigerare för Wah!Cade)"
+
+#: ../glade/wahcade_setup.glade.h:66
+msgid ""
+"Directory for artwork that will be used in the layouts Artwork#10 image.\n"
+"(also see Wah!Cade Layout Editor)"
+msgstr ""
+"Katalog för grafik som kommer att användas i layouterna Grafik#10 bild.\n"
+"(se även Layoutredigerare för Wah!Cade)"
+
+#: ../glade/wahcade_setup.glade.h:68
+msgid ""
+"Directory for artwork that will be used in the layouts Artwork#2 image.\n"
+"(also see Wah!Cade Layout Editor)"
+msgstr ""
+"Katalog för grafik som kommer att användas i layouterna Grafik#2 bild.\n"
+"(se även Layoutredigerare för Wah!Cade)"
+
+#: ../glade/wahcade_setup.glade.h:70
+msgid ""
+"Directory for artwork that will be used in the layouts Artwork#3 image.\n"
+"(also see Wah!Cade Layout Editor)"
+msgstr ""
+"Katalog för grafik som kommer att användas i layouterna Grafik#3 bild.\n"
+"(se även Layoutredigerare för Wah!Cade)"
+
+#: ../glade/wahcade_setup.glade.h:72
+msgid ""
+"Directory for artwork that will be used in the layouts Artwork#5 image.\n"
+"(also see Wah!Cade Layout Editor)"
+msgstr ""
+"Katalog för grafik som kommer att användas i layouterna Grafik#5 bild.\n"
+"(se även Layoutredigerare för Wah!Cade)"
+
+#: ../glade/wahcade_setup.glade.h:74
+msgid ""
+"Directory for artwork that will be used in the layouts Artwork#6 image.\n"
+"(also see Wah!Cade Layout Editor)"
+msgstr ""
+"Katalog för grafik som kommer att användas i layouterna Grafik#6 bild.\n"
+"(se även Layoutredigerare för Wah!Cade)"
+
+#: ../glade/wahcade_setup.glade.h:76
+msgid ""
+"Directory for artwork that will be used in the layouts Artwork#7 image.\n"
+"(also see Wah!Cade Layout Editor)"
+msgstr ""
+"Katalog för grafik som kommer att användas i layouterna Grafik#7 bild.\n"
+"(se även Layoutredigerare för Wah!Cade)"
+
+#: ../glade/wahcade_setup.glade.h:78
+msgid ""
+"Directory for artwork that will be used in the layouts Artwork#8 image.\n"
+"(also see Wah!Cade Layout Editor)"
+msgstr ""
+"Katalog för grafik som kommer att användas i layouterna Grafik#8 bild.\n"
+"(se även Layoutredigerare för Wah!Cade)"
+
+#: ../glade/wahcade_setup.glade.h:80
+msgid ""
+"Directory for artwork that will be used in the layouts Artwork#9 image.\n"
+"(also see Wah!Cade Layout Editor)"
+msgstr ""
+"Katalog för grafik som kommer att användas i layouterna Grafik#9 bild.\n"
+"(se även Layoutredigerare för Wah!Cade)"
+
+#: ../glade/wahcade_setup.glade.h:82
+msgid ""
+"Directory for artwork that will be used in the layouts Artwork4 image.\n"
+"(also see Wah!Cade Layout Editor)"
+msgstr ""
+"Katalog för grafik som kommer att användas i layouterna Grafik#4 bild.\n"
+"(se även Layoutredigerare för Wah!Cade)\"v"
+
+#: ../glade/wahcade_setup.glade.h:84
+msgid "Display Mouse Cursor"
+msgstr "Visa muspekare"
+
+#: ../glade/wahcade_setup.glade.h:85
+msgid "Display Scroll Arrows in Lists"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:86
+#, fuzzy
+msgid "Edit Game List"
+msgstr "Välj spellista"
+
+#: ../glade/wahcade_setup.glade.h:87
+msgid "Edit List"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:88
+msgid "Emulators"
+msgstr "Emulatorer"
+
+#: ../glade/wahcade_setup.glade.h:89
+#, fuzzy
+msgid "Exit Movie"
+msgstr "Filmer"
+
+#: ../glade/wahcade_setup.glade.h:90
+msgid "External Applications"
+msgstr "Externa program"
+
+#: ../glade/wahcade_setup.glade.h:91
+#, fuzzy
+msgid "External Screen Saver"
+msgstr "Skärmsläckare"
+
+#: ../glade/wahcade_setup.glade.h:92
+#, fuzzy
+msgid "FullScreen"
+msgstr "Skärm"
+
+#: ../glade/wahcade_setup.glade.h:93
+#, fuzzy
+msgid "Generate XML File"
+msgstr "Generera lista..."
+
+#: ../glade/wahcade_setup.glade.h:94
+msgid "History Viewer"
+msgstr "Historikvisare"
+
+#: ../glade/wahcade_setup.glade.h:95
+msgid "Intro Movie"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:96
+msgid "Joystick"
+msgstr "Styrspak"
+
+#: ../glade/wahcade_setup.glade.h:97
+msgid "Keyboard"
+msgstr "Tangentbord"
+
+#: ../glade/wahcade_setup.glade.h:98
+msgid "Keys"
+msgstr "Tangenter"
+
+#: ../glade/wahcade_setup.glade.h:99
+msgid "Layout Directory"
+msgstr "Layoutkatalog"
+
+#: ../glade/wahcade_setup.glade.h:100
+msgid "Layout File"
+msgstr "Layoutfil"
+
+#: ../glade/wahcade_setup.glade.h:101
+msgid "Layout directory name (in ~/wahcade/layouts)"
+msgstr "Namn på layoutkatalog (i ~/wahcade/layouts)"
+
+#: ../glade/wahcade_setup.glade.h:102
+msgid "List #"
+msgstr "Lista #"
+
+#: ../glade/wahcade_setup.glade.h:103
+#, fuzzy
+msgid "List Editor"
+msgstr "Listtitel"
+
+#: ../glade/wahcade_setup.glade.h:104
+msgid "List Generation"
+msgstr "Listgenerering"
+
+#: ../glade/wahcade_setup.glade.h:105
+msgid "List Generation Method"
+msgstr "Listgenereringsmetod"
+
+#: ../glade/wahcade_setup.glade.h:106
+msgid "List Specific Application Parameters"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:107
+msgid "List Title"
+msgstr "Listtitel"
+
+#: ../glade/wahcade_setup.glade.h:108
+msgid "List Type"
+msgstr "Listtyp"
+
+#: ../glade/wahcade_setup.glade.h:109
+msgid "Lists"
+msgstr "Listor"
+
+#: ../glade/wahcade_setup.glade.h:110
+msgid "Location of music"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:111
+msgid "M.A.M.E. Only"
+msgstr "Endast M.A.M.E."
+
+#: ../glade/wahcade_setup.glade.h:112
+msgid "MAME Info (.xml or .dat file)"
+msgstr "MAME-info (.xml eller .dat-fil)"
+
+#: ../glade/wahcade_setup.glade.h:113
+msgid ""
+"Method used to create game lists:\n"
+"1) Rom Directory: Scan the directory for games matching given Rom "
+"Extension.\n"
+"2) XML File: Scan the .xml file matching on games in given Rom Directory.\n"
+"3) DAT File: Scan the .dat file matching on games in given Rom Directory.\n"
+"\n"
+"* XML & DAT File methods are for Mame only."
+msgstr ""
+"Metod att använda för att skapa spellistor:\n"
+"1) Rom-katalog: Sök igenom katalogen efter spel som matchar angiven "
+"filändelse.\n"
+"2) XML-fil: Sök igenom .xml-filen efter sökträffar för spel i angiven Rom-"
+"katalog.\n"
+"3) DAT-fil: Sök igenom .dat-filen efter sökträffar för spel i angiven Rom-"
+"katalog.\n"
+"\n"
+"* XML och DAT-filmetoderna är endast för Mame."
+
+#: ../glade/wahcade_setup.glade.h:119
+msgid "Misc"
+msgstr "Diverse"
+
+#: ../glade/wahcade_setup.glade.h:120
+msgid "Mouse"
+msgstr "Mus"
+
+#: ../glade/wahcade_setup.glade.h:121
+msgid "Movie Artwork #"
+msgstr "Filmgrafik #"
+
+#: ../glade/wahcade_setup.glade.h:122
+msgid "Movie Directory"
+msgstr "Filmkatalog"
+
+#: ../glade/wahcade_setup.glade.h:123
+msgid "Movies"
+msgstr "Filmer"
+
+#: ../glade/wahcade_setup.glade.h:124
+#, fuzzy
+msgid "Music"
+msgstr "Diverse"
+
+#: ../glade/wahcade_setup.glade.h:125
+msgid "Music / Movie Mix"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:126
+#, fuzzy
+msgid "NMS File"
+msgstr "Ställ in filter"
+
+#: ../glade/wahcade_setup.glade.h:127
+msgid "Number of seconds before Screen Saver starts"
+msgstr "Antal sekunder innan skärmsläckaren startar"
+
+#: ../glade/wahcade_setup.glade.h:128
+msgid "Number of seconds to display Screen Saver image / movie"
+msgstr "Antal sekunder att visa skärmsläckarbild / film"
+
+#: ../glade/wahcade_setup.glade.h:129
+msgid "Play Music From"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:130
+#, fuzzy
+msgid "Please Wait.  Creating Initial Filter...      "
+msgstr "Vänta. Skapar initiala filter..."
+
+#: ../glade/wahcade_setup.glade.h:131
+msgid "Remove Current Emulator"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:132
+msgid "Reset Filters"
+msgstr "Återställ filter"
+
+#: ../glade/wahcade_setup.glade.h:133
+msgid "Reset Setup"
+msgstr "Återställ konfiguration"
+
+#: ../glade/wahcade_setup.glade.h:134
+msgid "Rom Directory"
+msgstr "Rom-katalog"
+
+#: ../glade/wahcade_setup.glade.h:135
+msgid ""
+"Rom Directory\n"
+"XML File (Mame Only)\n"
+"DAT File (Mame Only)\n"
+msgstr ""
+"Rom-katalog\n"
+"XML-fil (endast Mame)\n"
+"DAT-fil (endast Mame)\n"
+
+#: ../glade/wahcade_setup.glade.h:139
+msgid "Rom Extension"
+msgstr "Rom-ändelse"
+
+#: ../glade/wahcade_setup.glade.h:140
+msgid "Screen Saver"
+msgstr "Skärmsläckare"
+
+#: ../glade/wahcade_setup.glade.h:141
+msgid "Screen Saver Delay (secs)"
+msgstr "Fördröjning för skärmsläckare (sekunder)"
+
+#: ../glade/wahcade_setup.glade.h:142
+msgid "Screen Saver Slide Duration (secs)"
+msgstr "Tid för skärmsläckarvisning (sekunder)"
+
+#: ../glade/wahcade_setup.glade.h:143
+msgid "Screen Saver Type"
+msgstr "Skärmsläckartyp"
+
+#: ../glade/wahcade_setup.glade.h:144
+msgid "Select Joystick Control"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:145
+#, fuzzy
+msgid "Select Key"
+msgstr "Markerad?"
+
+#: ../glade/wahcade_setup.glade.h:146
+#, fuzzy
+msgid "Select Mouse Control"
+msgstr "Markerad färg"
+
+#: ../glade/wahcade_setup.glade.h:147
+#, fuzzy
+msgid "Set Category / Version File"
+msgstr "Kategori / Versionsfil"
+
+#: ../glade/wahcade_setup.glade.h:149
+msgid "Set Filter"
+msgstr "Ställ in filter"
+
+#: ../glade/wahcade_setup.glade.h:151
+#, fuzzy
+msgid "Set XML / Data File"
+msgstr "Ställ in Mame XML / datafil"
+
+#: ../glade/wahcade_setup.glade.h:152
+msgid "Setup Filters..."
+msgstr "Ställ in filter..."
+
+#: ../glade/wahcade_setup.glade.h:153
+msgid ""
+"Show scroll up / down arrows in Games, Options and History Viewer lists."
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:154
+msgid "Shuffle Playlist"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:155
+#, fuzzy
+msgid "Start Wah!Cade in fullscreen mode"
+msgstr "Ställ in helskärmsläge (standard)"
+
+#: ../glade/wahcade_setup.glade.h:156
+msgid "The Control Panel Viewer layout file location (.lay)"
+msgstr "Platsen för Control Panel Viewer-layoutfilen (.lay)"
+
+#: ../glade/wahcade_setup.glade.h:157
+msgid "The background image (if any) for the history viewer window."
+msgstr "Bakgrundsbilden (om någon) för historikvisarfönstret."
+
+#: ../glade/wahcade_setup.glade.h:158
+msgid "The catver.ini file location"
+msgstr "Platsen för filen catver.ini"
+
+#: ../glade/wahcade_setup.glade.h:159
+msgid "The controls.ini file location"
+msgstr "Platsen för filen controls.ini"
+
+#: ../glade/wahcade_setup.glade.h:160
+msgid "The history.dat file"
+msgstr "Filen history.dat"
+
+#: ../glade/wahcade_setup.glade.h:161
+msgid "The location of the emulator executable"
+msgstr "Platsen för emulatorns körbara fil"
+
+#: ../glade/wahcade_setup.glade.h:162
+msgid ""
+"The order applications are launched prior to the emulator, eg 1,2,3 or 3,2,1 "
+"or 1,2 or 1 etc."
+msgstr ""
+"Ordningen som programmen startas innan emulatorn, t.ex. 1,2,3 eller 3,2,1 "
+"eller 1,2 eller 1 etc."
+
+#: ../glade/wahcade_setup.glade.h:163
+msgid "This gets displayed in the Layout"
+msgstr "Det här visas i layouten"
+
+#: ../glade/wahcade_setup.glade.h:164
+msgid "Title"
+msgstr "Titel"
+
+#: ../glade/wahcade_setup.glade.h:165
+msgid "Use Joystick"
+msgstr "Använd styrspak"
+
+#: ../glade/wahcade_setup.glade.h:166
+msgid "Use Keyboard"
+msgstr "Använd tangentbord"
+
+#: ../glade/wahcade_setup.glade.h:168
+msgid "Volume (%)"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:169
+msgid "Wah!Cade"
+msgstr "Wah!Cade"
+
+#: ../glade/wahcade_setup.glade.h:170
+msgid "Wah!Cade Setup"
+msgstr "Konfiguration av Wah!Cade"
+
+#: ../glade/wahcade_setup.glade.h:171
+msgid "Wrap Lists"
+msgstr "Radbryt listor"
+
+#: ../glade/wahcade_setup.glade.h:172
+msgid "XML / Data File"
+msgstr "XML / Datafil"
+
+#: ../glade/wahcade_setup.glade.h:173
+#, fuzzy
+msgid "[Joystick Action]"
+msgstr "Styrspak"
+
+#: ../glade/wahcade_setup.glade.h:174 ../glade/layout_editor.glade.h:59
+msgid "_About"
+msgstr "_Om"
+
+#: ../glade/wahcade_setup.glade.h:175 ../glade/layout_editor.glade.h:61
+msgid "_File"
+msgstr "_Arkiv"
+
+#: ../glade/wahcade_setup.glade.h:176 ../glade/layout_editor.glade.h:62
+msgid "_Help"
+msgstr "_Hjälp"
+
+#: ../glade/wahcade_setup.glade.h:177
+#, fuzzy
+msgid "_Remove Game"
+msgstr "Ta bort spel från lista"
+
+#: ../glade/wahcade_setup.glade.h:178
+#, fuzzy
+msgid "_Reset Filter"
+msgstr "Återställ filter"
+
+#: ../glade/wahcade_setup.glade.h:179
+#, fuzzy
+msgid "n Games"
+msgstr "Sök spel"
+
+#: ../glade/wahcade_setup.glade.h:180
+msgid ""
+"wahcade-cp-viewer\n"
+"wahcade-history-viewer"
+msgstr ""
+"wahcade-cp-viewer\n"
+"wahcade-history-viewer"
+
+#: ../glade/layout_editor.glade.h:1
+msgid ""
+"0\n"
+"90\n"
+"180\n"
+"270"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:5
+msgid ""
+"1200\n"
+"1024\n"
+"768\n"
+"600\n"
+"480"
+msgstr ""
+"1200\n"
+"1024\n"
+"768\n"
+"600\n"
+"480"
+
+#: ../glade/layout_editor.glade.h:10
+msgid ""
+"1600\n"
+"1280\n"
+"1024\n"
+"800\n"
+"640"
+msgstr ""
+"1600\n"
+"1280\n"
+"1024\n"
+"800\n"
+"640"
+
+#: ../glade/layout_editor.glade.h:15
+msgid "Background Colour"
+msgstr "Bakgrundsfärg"
+
+#: ../glade/layout_editor.glade.h:16
+msgid "Background Image"
+msgstr "Bakgrundsbild"
+
+#: ../glade/layout_editor.glade.h:17
+msgid "Bar Colour"
+msgstr "Radfärg"
+
+#: ../glade/layout_editor.glade.h:18
+msgid "CP Viewer"
+msgstr "CP Viewer"
+
+#: ../glade/layout_editor.glade.h:19
+msgid "Centre"
+msgstr "Center"
+
+#: ../glade/layout_editor.glade.h:20
+msgid "Control Panel Viewer Window"
+msgstr "Control Panel Viewer-fönster"
+
+#: ../glade/layout_editor.glade.h:21
+#, fuzzy
+msgid "Full Screen"
+msgstr "Skärm"
+
+#: ../glade/layout_editor.glade.h:22
+msgid "History Window"
+msgstr "Historikfönster"
+
+#: ../glade/layout_editor.glade.h:23
+msgid "Item Properties"
+msgstr "Objektegenskaper"
+
+#: ../glade/layout_editor.glade.h:24
+msgid "Item _Properties"
+msgstr "Objekt_egenskaper"
+
+#: ../glade/layout_editor.glade.h:25
+#, fuzzy
+msgid "Layout"
+msgstr "Layoutfil"
+
+#: ../glade/layout_editor.glade.h:26
+#, fuzzy
+msgid "Layout Properties"
+msgstr "Objektegenskaper"
+
+#: ../glade/layout_editor.glade.h:27
+msgid "Leave unchecked for Wah!Cade to auto-detect background images."
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:29
+msgid "M_essage Window"
+msgstr "M_eddelandefönster"
+
+#: ../glade/layout_editor.glade.h:30
+msgid "Main Window"
+msgstr "Huvudfönster"
+
+#: ../glade/layout_editor.glade.h:31
+msgid "Message Window"
+msgstr "Meddelandefönster"
+
+#: ../glade/layout_editor.glade.h:32
+msgid "Name"
+msgstr "Namn"
+
+#: ../glade/layout_editor.glade.h:33
+msgid "Open History Layout"
+msgstr "Öppna historiklayout"
+
+#: ../glade/layout_editor.glade.h:34
+msgid "Open _CP Viewer Layout"
+msgstr "Öppna _CP Viewer-layout"
+
+#: ../glade/layout_editor.glade.h:35
+msgid "Options Window"
+msgstr "Alternativfönster"
+
+#: ../glade/layout_editor.glade.h:36
+msgid "Position (X,Y)"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:37
+msgid "Properties"
+msgstr "Egenskaper"
+
+#: ../glade/layout_editor.glade.h:38
+msgid "Properties On Top"
+msgstr "Egenskaper överst"
+
+#: ../glade/layout_editor.glade.h:40
+#, fuzzy
+msgid "Rotation"
+msgstr "Texttypsnitt"
+
+#: ../glade/layout_editor.glade.h:41
+msgid "S_creen Properties"
+msgstr "S_kärmegenskaper"
+
+#: ../glade/layout_editor.glade.h:42
+msgid "Save C_P Viewer Layout As"
+msgstr "Spara C_P Viewer-layout som"
+
+#: ../glade/layout_editor.glade.h:43
+msgid "Save History Layout As"
+msgstr "Spara historiklayout som"
+
+#: ../glade/layout_editor.glade.h:44
+msgid "Save Layout(s)"
+msgstr "Spara layout(er)"
+
+#: ../glade/layout_editor.glade.h:45
+msgid "Save Wah!Cade Layout _As"
+msgstr "Spar Wah!Cade-layout s_om"
+
+#: ../glade/layout_editor.glade.h:46
+msgid "Screen Properties"
+msgstr "Skärmegenskaper"
+
+#: ../glade/layout_editor.glade.h:47
+msgid "Screen Saver Window"
+msgstr "Skärmsläckarfönster"
+
+#: ../glade/layout_editor.glade.h:48
+msgid "Select _All (Visible)"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:49
+msgid "Selected Colour"
+msgstr "Markerad färg"
+
+#: ../glade/layout_editor.glade.h:50
+#, fuzzy
+msgid "Set Background Image"
+msgstr "Bakgrundsbild"
+
+#: ../glade/layout_editor.glade.h:51
+msgid "Size (Width x Height)"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:52
+msgid "Size (Width, Height)"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:53
+msgid "Text Alignment"
+msgstr "Textjustering"
+
+#: ../glade/layout_editor.glade.h:54
+msgid "Text Colour"
+msgstr "Textfärg"
+
+#: ../glade/layout_editor.glade.h:55
+msgid "Text Font"
+msgstr "Texttypsnitt"
+
+#: ../glade/layout_editor.glade.h:56
+msgid "Transparent"
+msgstr "Genomskinlig"
+
+#: ../glade/layout_editor.glade.h:57
+msgid "Visible"
+msgstr "Synlig"
+
+#: ../glade/layout_editor.glade.h:58
+msgid "Wah!Cade Layout Editor"
+msgstr "Layoutredigerare för Wah!Cade"
+
+#: ../glade/layout_editor.glade.h:60
+msgid "_Edit"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:63
+msgid "_Main Window"
+msgstr "_Huvudfönster"
+
+#: ../glade/layout_editor.glade.h:64
+msgid "_Open Wah!Cade Layout"
+msgstr "_Öppna Wah!Cade-layout"
+
+#: ../glade/layout_editor.glade.h:65
+msgid "_Options Window"
+msgstr "_Alternativfönster"
+
+#: ../glade/layout_editor.glade.h:66
+msgid "_Screen Saver Window"
+msgstr "_Skärmsläckarfönster"
+
+#: ../glade/layout_editor.glade.h:67
+#, fuzzy
+msgid "_Select All"
+msgstr "Välj plattform"
+
+#: ../glade/layout_editor.glade.h:68
+msgid "_View"
+msgstr "_Visa"
+
+#~ msgid "Warning: can't find parent rom: [%s] for clone: [%s]"
+#~ msgstr "Varning: kan inte hitta förälder-rom: [%s] för klonen: [%s]"
+
+#~ msgid ""
+#~ "Command Line Format, where:\n"
+#~ "  [name] is replaced by the selected Rom name\n"
+#~ "  [rompath] is replaced by the Rom Directory\n"
+#~ "  [romext] is replaced by the Rom Extension\n"
+#~ "\n"
+#~ ".e.g.  [name].[romext] -p [rompath] would be:\n"
+#~ "  asteroids.zip -p /home/user/some/path\n"
+#~ msgstr ""
+#~ "Kommandoradsformat, där:\n"
+#~ "  [name] ersätts av det angivna Rom-namnet\n"
+#~ "  [rompath] ersätts av Rom-katalogen\n"
+#~ "  [romext] ersätts av Rom-ändelsen\n"
+#~ "\n"
+#~ "t.ex.  [name].[romext] -p [rompath] skulle bli:\n"
+#~ "  asteroids.zip -p /home/användare/någon/sökväg\n"
+
+#~ msgid "Press any key, mouse button or scroll wheel..."
+#~ msgstr "Tryck på en tangent, musknapp eller rullhjul..."
+
+#~ msgid "Open Control Panel Viewer Layout"
+#~ msgstr "Öppna Control Panel Viewer-layout"
+
+#, fuzzy
+#~ msgid "Artwork Directory"
+#~ msgstr "Ställ in katalog för Grafik #%s"
+
+#, fuzzy
+#~ msgid "Plays Movies"
+#~ msgstr "Filmer"
+
+#, fuzzy
+#~ msgid "Set Data File"
+#~ msgstr "Datafil"
+
+#~ msgid "Please Wait: Creating initial filter..."
+#~ msgstr "Vänta: Skapar initiala filter..."
+
+#~ msgid "Height"
+#~ msgstr "Höjd"
+
+#~ msgid "Screen"
+#~ msgstr "Skärm"
+
+#~ msgid "Use Image"
+#~ msgstr "Använd bild"
+
+#~ msgid "Width"
+#~ msgstr "Bredd"
+
+#~ msgid "X Pos"
+#~ msgstr "X-pos"
+
+#~ msgid "Y Pos"
+#~ msgstr "Y-pos"
+
+#~ msgid "Movie Audio"
+#~ msgstr "Filmljud"
+
+#, fuzzy
+#~ msgid ""
+#~ "Command Line Format, where:\n"
+#~ "  [name] is replaced by the selected Rom name\n"
+#~ "  [rompath] is replaced by the Rom Directory\n"
+#~ "  [romext] is replaced by the Rom Extension\n"
+#~ "\n"
+#~ ".e.g.  [name].[romext] -p [rompath] would be:\n"
+#~ "  asteroids.zip -p /home/user/some/path"
+#~ msgstr ""
+#~ "Kommandoradsformat, där:\n"
+#~ "  [name] ersätts av det angivna Rom-namnet\n"
+#~ "  [rompath] ersätts av Rom-katalogen\n"
+#~ "  [romext] ersätts av Rom-ändelsen\n"
+#~ "\n"
+#~ "t.ex.  [name].[romext] -p [rompath] skulle bli:\n"
+#~ "  asteroids.zip -p /home/användare/någon/sökväg\n"
+
+#~ msgid "Set History Viewer Background Image"
+#~ msgstr "Ställ in bakgrundsbild för historikvisaren"
+
+#~ msgid "Main Font"
+#~ msgstr "Huvudtypsnitt"
+
+#~ msgid "Title Font"
+#~ msgstr "Titeltypsnitt"

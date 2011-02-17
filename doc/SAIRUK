@@ -1,0 +1,73 @@
+A Modified Wahcade by sairuk
+
+Changelog
+20101205
+ - fixed crash when loading slideshow screensaver
+20101204
+ - moved existing artwork loading into array 
+20100701
+ - added missing file from last release
+ - added fix for windows fuzzy artwork search
+20100629
+ - Added Fuzzy Artwork Search, set in wahcade.ini
+20100624
+ - Workaround for issue with lockfile when using loaders
+ - Added support for catver.ini files with all sets
+ - Added support to generate mess xml from setup ui
+ - Added support for mess xml filtered lists from xml
+ - Renamed MAME Only tab to extras
+20100614
+ - Moved file extension processing on launch into a function
+20100613
+ - Fixed issue with rom_folder_vs_listxml list generation
+ - Added support for mess listxml
+20100612
+ - First release
+
+Features:
+ - Scrolled game lists can now be a minimum of 1 row
+ - Support for multiple rom extension when using rom_folder (specify in ini using ; as sep, ie smd;sfc;n64)
+ - Support for no rom extension (read entire directory into list)
+ - Continued support for single extension (Mamewah style)
+ - Support for non-sequential game lists, use in conjuction with (http://www.mameau.com/listgen)
+ - Muliple loop/launch issue is fixed using lock_time setting in wahcade.ini
+ - Mess listxml support
+ - CATVER.INI support for all emulators
+
+
+
+Details:
+
+Fuzzy Artwork Search
+ - Load artwork by fuzzy match on filename
+ - Set with fuzzy_artwork_search in the wahcade.ini
+
+Lock File 
+ - This fix locks user input when launching an emulator
+ - This fix locks user input for a period of time (secs) after the emulator exits.
+ - Set this with lock_time in the wahcade.ini
+
+Additional Rom Extension Support
+ - Multiple rom extensions may be specified and separated with a semicolon;
+    - ie. smc;sfc;bin
+ When a game is launch and this is recognised in the extension field of the ini the system will
+ loop through the extensions whilst check if a file exists with each extension to set the correct 
+ extension for the launched game. It will execute the first one found
+ - Empty Rom Extension field
+ Leaving the extension field empty will act as a wildcard and add all items in the rom path to the
+ list. When executing a game the system will check for the first match of the rom title and execute.
+
+Scrolled Game List
+ - Can now be shrunk to a single row. Previous limit was minimum of 4 rows.
+
+Non-Sequential Game Lists
+ Game lists in wahcade were required to be numbered sequentially. This is no longer required 
+ and mahcade will now read all lists matching the emulator name and cycle through them. This 
+ has the advantage of allowing the user to delete old list file without modifying all others
+ or use my tool at http://www.mameau.com/listgen to build filtered lists
+
+*** My modified layout at 1024x576 version of the black retro skin included for netbooks ***
+
+NOTE: support for standard wahcade/mamewah ini's should not be changed
+
+Tested under UBUNTU 10.04/10.10 NBR

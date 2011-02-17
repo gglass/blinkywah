@@ -1,0 +1,1479 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-07-15 19:40+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../exception.py:49
+msgid "<big><b>Error</b></big>"
+msgstr ""
+
+#: ../exception.py:50
+msgid "Bug Detected"
+msgstr ""
+
+#: ../filters.py:291
+#, python-format
+msgid "Error: category info file: [%s] does not exist"
+msgstr ""
+
+#: ../filters.py:309
+#, python-format
+msgid "Error: rom path: [%s] does not exist"
+msgstr ""
+
+#: ../filters.py:358
+#, python-format
+msgid "Error: emulator info file: [%s] does not exist"
+msgstr ""
+
+#: ../filters.py:359
+msgid "       cannot create initial filters!"
+msgstr ""
+
+#: ../filters.py:430
+#, python-format
+msgid "Error: filter file: [%s] does not exist"
+msgstr ""
+
+#: ../filters.py:440
+#, python-format
+msgid "Error: filter file: [%s] invalid (too short!)"
+msgstr ""
+
+#: ../filters.py:662
+#, python-format
+msgid "Error: nms file [%s] does not exist"
+msgstr ""
+
+#: ../joystick.py:32
+msgid "Warning: pygame module not found.  Joysticks not supported"
+msgstr ""
+
+#: ../joystick.py:80
+#, python-format
+msgid "Joystick %s Button %s"
+msgstr ""
+
+#: ../joystick.py:86
+#, python-format
+msgid "Joystick %s "
+msgstr ""
+
+#: ../joystick.py:91
+msgid "Up"
+msgstr ""
+
+#: ../joystick.py:92
+msgid "Down"
+msgstr ""
+
+#: ../joystick.py:93 ../glade/layout_editor.glade.h:28
+msgid "Left"
+msgstr ""
+
+#: ../joystick.py:94 ../glade/layout_editor.glade.h:39
+msgid "Right"
+msgstr ""
+
+#: ../layout_editor.py:78
+msgid "No Wah!Cade config files found.  Run wahcade or wahcade-setup first."
+msgstr ""
+
+#: ../layout_editor.py:309
+msgid "Save:"
+msgstr ""
+
+#: ../layout_editor.py:311
+msgid ""
+"\n"
+"  Wah!Cade Layout"
+msgstr ""
+
+#: ../layout_editor.py:313
+msgid ""
+"\n"
+"  CPViewer Layout"
+msgstr ""
+
+#: ../layout_editor.py:315
+msgid ""
+"\n"
+"  History Viewer Layout"
+msgstr ""
+
+#: ../layout_editor.py:384
+msgid "Open Wah!Cade Layout"
+msgstr ""
+
+#: ../layout_editor.py:392
+msgid "Open CP Viewer Layout"
+msgstr ""
+
+#: ../layout_editor.py:400
+msgid "Open History Viewer Layout"
+msgstr ""
+
+#: ../layout_editor.py:417
+msgid "Save Wah!Cade Layout"
+msgstr ""
+
+#: ../layout_editor.py:425
+msgid "Save CP Viewer Layout"
+msgstr ""
+
+#: ../layout_editor.py:433
+msgid "Save History Viewer Layout"
+msgstr ""
+
+#: ../wahcade-layout-editor.py:47
+msgid ""
+"Use application config location (i.e. wahcade/config instead of the default "
+"~/.wahcade)"
+msgstr ""
+
+#: ../wahcade-layout-editor.py:52 ../wahcade.py:55
+msgid "Set debug mode (disables psyco)"
+msgstr ""
+
+#: ../wahcade.py:45
+msgid "Set windowed mode"
+msgstr ""
+
+#: ../wahcade.py:50
+msgid "Set fullscreen mode"
+msgstr ""
+
+#: ../wahcade.py:60
+msgid "Set to disable all gstreamer use (music / video playback)"
+msgstr ""
+
+#: ../wahcade.py:65
+msgid "Set to disable all pygame use (joysticks)"
+msgstr ""
+
+#: ../wc_common.py:285
+msgid "translator-credits"
+msgstr ""
+
+#: ../wc_setup.py:41
+msgid "Mouse Button 1"
+msgstr ""
+
+#: ../wc_setup.py:42
+msgid "Mouse Button 2"
+msgstr ""
+
+#: ../wc_setup.py:43
+msgid "Mouse Button 3"
+msgstr ""
+
+#: ../wc_setup.py:44
+msgid "Mouse Button 4"
+msgstr ""
+
+#: ../wc_setup.py:45
+msgid "Mouse Button 5"
+msgstr ""
+
+#: ../wc_setup.py:46
+msgid "Mouse Button 6"
+msgstr ""
+
+#: ../wc_setup.py:47
+msgid "Mouse Button 7"
+msgstr ""
+
+#: ../wc_setup.py:48
+msgid "Mouse Button 8"
+msgstr ""
+
+#: ../wc_setup.py:49
+msgid "Mouse Button 9"
+msgstr ""
+
+#: ../wc_setup.py:50
+msgid "Mouse Left"
+msgstr ""
+
+#: ../wc_setup.py:51
+msgid "Mouse Right"
+msgstr ""
+
+#: ../wc_setup.py:52
+msgid "Mouse Up"
+msgstr ""
+
+#: ../wc_setup.py:53
+msgid "Mouse Down"
+msgstr ""
+
+#: ../wc_setup.py:54
+msgid "Scroll Wheel Down"
+msgstr ""
+
+#: ../wc_setup.py:55
+msgid "Scroll Wheel Up"
+msgstr ""
+
+#: ../wc_setup.py:70
+msgid "Select an Emulator Template..."
+msgstr ""
+
+#: ../wc_setup.py:107
+msgid "Save Emulator File"
+msgstr ""
+
+#: ../wc_setup.py:138
+msgid "Emulator already exists!"
+msgstr ""
+
+#: ../wc_setup.py:237
+msgid "Could not recognize key"
+msgstr ""
+
+#: ../wc_setup.py:272
+msgid "Double-Click a row to change a Key..."
+msgstr ""
+
+#: ../wc_setup.py:352
+msgid "Are you sure you want to revert to the default settings?"
+msgstr ""
+
+#: ../wc_setup.py:370
+msgid "Are you sure you want to reset the file filters?"
+msgstr ""
+
+#: ../wc_setup.py:414
+#, python-format
+msgid ""
+"\"%s\" is already assigned to the following actions:\n"
+"%s\n"
+msgstr ""
+
+#: ../wc_setup.py:417
+msgid "Keep existing assignments?"
+msgstr ""
+
+#: ../wc_setup.py:515 ../glade/wahcade_setup.glade.h:150
+msgid "Set Intro Movie"
+msgstr ""
+
+#: ../wc_setup.py:522 ../glade/wahcade_setup.glade.h:148
+msgid "Set Exit Movie"
+msgstr ""
+
+#: ../wc_setup.py:544
+#, python-format
+msgid "Are you sure you delete this Emulator (%s)?"
+msgstr ""
+
+#: ../wc_setup.py:582
+#, python-format
+msgid "Are you sure you want to delete this List (%s)?"
+msgstr ""
+
+#: ../wc_setup.py:641
+msgid "Set Emulator Executable"
+msgstr ""
+
+#: ../wc_setup.py:648
+msgid "Set Rom Directory"
+msgstr ""
+
+#: ../wc_setup.py:655
+msgid "Set NMS File"
+msgstr ""
+
+#: ../wc_setup.py:662
+msgid "Set Screen Saver Movie Directory"
+msgstr ""
+
+#: ../wc_setup.py:669
+msgid "Set External Screen Saver"
+msgstr ""
+
+#: ../wc_setup.py:677
+#, python-format
+msgid "Set Artwork #%s Directory"
+msgstr ""
+
+#: ../wc_setup.py:684
+msgid "Set Movie Directory"
+msgstr ""
+
+#: ../wc_setup.py:697
+msgid "Set External Application"
+msgstr ""
+
+#: ../wc_setup.py:704
+msgid "Set Mame XML / Data File"
+msgstr ""
+
+#: ../wc_setup.py:711
+msgid "Set Mame Category Version File"
+msgstr ""
+
+#: ../wc_setup.py:718
+msgid "Set History Viewer history.dat File"
+msgstr ""
+
+#: ../wc_setup.py:725
+msgid "Set History Viewer Layout File"
+msgstr ""
+
+#: ../wc_setup.py:732
+msgid "Set Control Panel Viewer controls.ini File"
+msgstr ""
+
+#: ../wc_setup.py:739
+msgid "Set Control Panel Viewer Layout File"
+msgstr ""
+
+#: ../wc_setup.py:746
+msgid "Please select MAME Emulator first"
+msgstr ""
+
+#: ../wc_setup.py:751
+msgid "Please select valid MAME Application first"
+msgstr ""
+
+#: ../wc_setup.py:759
+msgid "Please Wait. Creating XML File..."
+msgstr ""
+
+#: ../wc_setup.py:800
+msgid "Save changes?"
+msgstr ""
+
+#: ../win_filter.py:69
+msgid "Filter"
+msgstr ""
+
+#: ../win_filter.py:77
+msgid "Selected?"
+msgstr ""
+
+#: ../win_filter.py:94 ../win_options.py:128
+msgid "No"
+msgstr ""
+
+#: ../win_filter.py:95 ../win_options.py:129
+msgid "Yes"
+msgstr ""
+
+#: ../win_filter.py:96 ../win_options.py:130
+msgid "Only if better than Parent"
+msgstr ""
+
+#: ../win_filter.py:98 ../win_options.py:106
+msgid "Display Clones"
+msgstr ""
+
+#: ../win_filter.py:99 ../win_options.py:107
+msgid "Year Filters"
+msgstr ""
+
+#: ../win_filter.py:100 ../win_options.py:108
+msgid "Manufacturer Filters"
+msgstr ""
+
+#: ../win_filter.py:101 ../win_options.py:109
+msgid "BIOS Filters"
+msgstr ""
+
+#: ../win_filter.py:102 ../win_options.py:110
+msgid "Screen Type Filters"
+msgstr ""
+
+#: ../win_filter.py:103 ../win_options.py:111
+msgid "Screen Orientation Filters"
+msgstr ""
+
+#: ../win_filter.py:104 ../win_options.py:112
+msgid "Input Type Filters"
+msgstr ""
+
+#: ../win_filter.py:105 ../win_options.py:113
+msgid "General Status Filters"
+msgstr ""
+
+#: ../win_filter.py:106 ../win_options.py:114
+msgid "Colour Status Filters"
+msgstr ""
+
+#: ../win_filter.py:107 ../win_options.py:115
+msgid "Sound Status Filters"
+msgstr ""
+
+#: ../win_filter.py:108 ../win_options.py:116
+msgid "Category Filters"
+msgstr ""
+
+#: ../win_filter.py:129 ../win_list.py:89
+#, python-format
+msgid "Error: Emulator Ini file: [%s] doesn't exist"
+msgstr ""
+
+#: ../win_filter.py:142
+msgid "Save filter changes?"
+msgstr ""
+
+#: ../win_filter.py:241
+msgid "List Type must be \"normal\" to generate filters"
+msgstr ""
+
+#: ../win_filter.py:326
+msgid "No Games"
+msgstr ""
+
+#: ../win_filter.py:335 ../win_list.py:179 ../win_list.py:195
+#, python-format
+msgid "%s games"
+msgstr ""
+
+#: ../win_list.py:151
+msgid "You must set a rom name"
+msgstr ""
+
+#: ../win_list.py:199 ../win_main.py:1104 ../win_main.py:1372
+msgid "Please Wait. Creating initial filter..."
+msgstr ""
+
+#: ../win_list.py:221
+msgid "Save List changes?"
+msgstr ""
+
+#: ../win_main.py:92
+#, python-format
+msgid "Wah!Cade config files created in: [%s]"
+msgstr ""
+
+#: ../win_main.py:93
+msgid "Restart after configuring (run wahcade-setup or see the README file)."
+msgstr ""
+
+#: ../win_main.py:722
+#, python-format
+msgid "Game %s of %s selected"
+msgstr ""
+
+#: ../win_main.py:726
+#, python-format
+msgid "%s (Clone of %s)"
+msgstr ""
+
+#: ../win_main.py:761
+#, python-format
+msgid "Error: wrong screen saver type: [%s]"
+msgstr ""
+
+#: ../win_main.py:887
+#, python-format
+msgid "Emulator Executable [%s] does not exist"
+msgstr ""
+
+#: ../win_main.py:888
+#, python-format
+msgid "Error: %s"
+msgstr ""
+
+#: ../win_main.py:890
+msgid "Error!"
+msgstr ""
+
+#: ../win_main.py:892
+msgid "Press key to continue..."
+msgstr ""
+
+#: ../win_main.py:901
+msgid "Starting..."
+msgstr ""
+
+#: ../win_main.py:1032
+#, python-format
+msgid "Error: External Application [%s] does not exist"
+msgstr ""
+
+#: ../win_main.py:1105 ../win_main.py:1373
+msgid "Please Wait"
+msgstr ""
+
+#: ../win_main.py:1105 ../win_main.py:1373
+msgid "Creating initial filter..."
+msgstr ""
+
+#: ../win_main.py:1287 ../win_options.py:172
+msgid "Options"
+msgstr ""
+
+#: ../win_main.py:1288 ../win_options.py:175
+msgid "Current Setting:"
+msgstr ""
+
+#: ../win_main.py:1464
+msgid "Warning: Failed to create Music gstreamer objects"
+msgstr ""
+
+#: ../win_main.py:1468
+#, python-format
+msgid "Error: Music Path [%s] does not exist"
+msgstr ""
+
+#: ../win_main.py:1495
+#, python-format
+msgid "Error: Movie Preview Path [%s] does not exist"
+msgstr ""
+
+#: ../win_main.py:1507
+msgid "Warning: Failed to create Video gstreamer objects"
+msgstr ""
+
+#: ../win_options.py:90
+msgid "Select Platform"
+msgstr ""
+
+#: ../win_options.py:91
+msgid "Select Game List"
+msgstr ""
+
+#: ../win_options.py:92
+msgid "Find Game"
+msgstr ""
+
+#: ../win_options.py:93
+msgid "Select Random Game"
+msgstr ""
+
+#: ../win_options.py:94
+msgid "Games List Options"
+msgstr ""
+
+#: ../win_options.py:96
+msgid "Music Options"
+msgstr ""
+
+#: ../win_options.py:97
+msgid "About..."
+msgstr ""
+
+#: ../win_options.py:98
+msgid "Exit Wah!Cade"
+msgstr ""
+
+#: ../win_options.py:101
+msgid "Add Game to List"
+msgstr ""
+
+#: ../win_options.py:102
+msgid "Remove Game from List"
+msgstr ""
+
+#: ../win_options.py:103
+msgid "Generate Filtered List..."
+msgstr ""
+
+#: ../win_options.py:104
+msgid "Generate List..."
+msgstr ""
+
+#: ../win_options.py:118
+msgid "Play / Pause"
+msgstr ""
+
+#: ../win_options.py:119
+msgid "Next Track"
+msgstr ""
+
+#: ../win_options.py:120
+msgid "Previous Track"
+msgstr ""
+
+#: ../win_options.py:121
+msgid "Select Track / Directory"
+msgstr ""
+
+#: ../win_options.py:123
+msgid "Exit to Desktop"
+msgstr ""
+
+#: ../win_options.py:124
+msgid "Exit & Reboot"
+msgstr ""
+
+#: ../win_options.py:125
+msgid "Exit & Shutdown"
+msgstr ""
+
+#: ../win_options.py:229 ../win_options.py:268
+msgid "Please Wait..."
+msgstr ""
+
+#: ../win_options.py:230
+msgid "Generating new games list..."
+msgstr ""
+
+#: ../win_options.py:264
+msgid "Show ALL"
+msgstr ""
+
+#: ../win_options.py:265
+msgid "Show NONE"
+msgstr ""
+
+#: ../win_options.py:269
+msgid "Generating new filtered games list..."
+msgstr ""
+
+#: ../win_scrsaver.py:107
+msgid "Warning: ScrSaver: Failed to create Video gstreamer objects"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:1
+msgid "\"Wrap Around\" the Games List & Options menu."
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:2
+msgid "# Games"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:3
+msgid "<b>Emulator</b>"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:4
+msgid "<b>Test:</b>"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:5
+msgid "<b>or</b>"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:6
+msgid "Add Emulator"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:7
+msgid "Add New Emulator"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:8
+msgid "Add new List"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:9
+msgid "Also see the \"Display Mouse Cursor\" option (Wah!Cade Tab)"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:10
+msgid "Also see the \"Use Mouse\" option (Keys Tab)"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:11
+msgid "Alternative #1"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:12
+msgid "Alternative #2"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:13
+msgid "Application"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:14
+msgid "Application #1"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:15
+msgid "Application #2"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:16
+msgid "Application #3"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:17
+msgid "Application Parameters"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:18
+msgid "Artwork"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:19
+msgid "Artwork # that Movies will be displayed in"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:20
+msgid "Artwork #1"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:21
+msgid "Artwork #10"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:22
+msgid "Artwork #2"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:23
+msgid "Artwork #3"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:24
+msgid "Artwork #4"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:25
+msgid "Artwork #5"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:26
+msgid "Artwork #6"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:27
+msgid "Artwork #7"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:28
+msgid "Artwork #8"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:29
+msgid "Artwork #9"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:30
+msgid "Auto Launch Apps"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:31
+msgid "Cancel"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:32
+msgid "Category / Version File"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:33
+msgid "Check this for list to be included in Next / Previous List selection"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:34
+msgid "Command Line"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:35
+msgid ""
+"Command Line Format, where:\n"
+"  [name] is replaced by the selected Rom name\n"
+"  [rompath] is replaced by the Rom Directory\n"
+"  [romext] is replaced by the Rom Extension\n"
+"  [autorotate] will rotate the screen (Mame only)\n"
+"  {minimize} will minimize wah!cade after launching the application\n"
+"  {music} allows music playback to continue after launching the application\n"
+"\n"
+".e.g.  [name].[romext] -p [rompath] would be:\n"
+"  asteroids.zip -p /home/user/some/path\n"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:46
+msgid ""
+"Command Line Format, where:\n"
+"  [name] is replaced by the selected Rom name\n"
+"  [rompath] is replaced by the Rom Directory\n"
+"  [romext] is replaced by the Rom Extension\n"
+"  {minimize} will minimize wah!cade after launching the application\n"
+"\n"
+".e.g.  [name].[romext] -p [rompath] would be:\n"
+"  asteroids.zip -p /home/user/some/path\n"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:55
+msgid "Control Panel Viewer"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:56
+msgid "Controls File"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:57
+msgid "Correctly Scale Images"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:58
+msgid "Cycle List"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:59
+msgid "Data File"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:60
+msgid "Delay (secs)"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:61
+msgid "Delete this List"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:62
+msgid ""
+"Directory for Movies that will be used in the layout.\n"
+"(also see Wah!Cade Layout Editor)"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:64
+msgid ""
+"Directory for artwork that will be used in the layouts Artwork#1 image.\n"
+"(also see Wah!Cade Layout Editor)"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:66
+msgid ""
+"Directory for artwork that will be used in the layouts Artwork#10 image.\n"
+"(also see Wah!Cade Layout Editor)"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:68
+msgid ""
+"Directory for artwork that will be used in the layouts Artwork#2 image.\n"
+"(also see Wah!Cade Layout Editor)"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:70
+msgid ""
+"Directory for artwork that will be used in the layouts Artwork#3 image.\n"
+"(also see Wah!Cade Layout Editor)"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:72
+msgid ""
+"Directory for artwork that will be used in the layouts Artwork#5 image.\n"
+"(also see Wah!Cade Layout Editor)"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:74
+msgid ""
+"Directory for artwork that will be used in the layouts Artwork#6 image.\n"
+"(also see Wah!Cade Layout Editor)"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:76
+msgid ""
+"Directory for artwork that will be used in the layouts Artwork#7 image.\n"
+"(also see Wah!Cade Layout Editor)"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:78
+msgid ""
+"Directory for artwork that will be used in the layouts Artwork#8 image.\n"
+"(also see Wah!Cade Layout Editor)"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:80
+msgid ""
+"Directory for artwork that will be used in the layouts Artwork#9 image.\n"
+"(also see Wah!Cade Layout Editor)"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:82
+msgid ""
+"Directory for artwork that will be used in the layouts Artwork4 image.\n"
+"(also see Wah!Cade Layout Editor)"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:84
+msgid "Display Mouse Cursor"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:85
+msgid "Display Scroll Arrows in Lists"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:86
+msgid "Edit Game List"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:87
+msgid "Edit List"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:88
+msgid "Emulators"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:89
+msgid "Exit Movie"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:90
+msgid "External Applications"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:91
+msgid "External Screen Saver"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:92
+msgid "FullScreen"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:93
+msgid "Generate XML File"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:94
+msgid "History Viewer"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:95
+msgid "Intro Movie"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:96
+msgid "Joystick"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:97
+msgid "Keyboard"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:98
+msgid "Keys"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:99
+msgid "Layout Directory"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:100
+msgid "Layout File"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:101
+msgid "Layout directory name (in ~/wahcade/layouts)"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:102
+msgid "List #"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:103
+msgid "List Editor"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:104
+msgid "List Generation"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:105
+msgid "List Generation Method"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:106
+msgid "List Specific Application Parameters"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:107
+msgid "List Title"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:108
+msgid "List Type"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:109
+msgid "Lists"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:110
+msgid "Location of music"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:111
+msgid "M.A.M.E. Only"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:112
+msgid "MAME Info (.xml or .dat file)"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:113
+msgid ""
+"Method used to create game lists:\n"
+"1) Rom Directory: Scan the directory for games matching given Rom "
+"Extension.\n"
+"2) XML File: Scan the .xml file matching on games in given Rom Directory.\n"
+"3) DAT File: Scan the .dat file matching on games in given Rom Directory.\n"
+"\n"
+"* XML & DAT File methods are for Mame only."
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:119
+msgid "Misc"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:120
+msgid "Mouse"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:121
+msgid "Movie Artwork #"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:122
+msgid "Movie Directory"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:123
+msgid "Movies"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:124
+msgid "Music"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:125
+msgid "Music / Movie Mix"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:126
+msgid "NMS File"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:127
+msgid "Number of seconds before Screen Saver starts"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:128
+msgid "Number of seconds to display Screen Saver image / movie"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:129
+msgid "Play Music From"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:130
+msgid "Please Wait.  Creating Initial Filter...      "
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:131
+msgid "Remove Current Emulator"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:132
+msgid "Reset Filters"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:133
+msgid "Reset Setup"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:134
+msgid "Rom Directory"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:135
+msgid ""
+"Rom Directory\n"
+"XML File (Mame Only)\n"
+"DAT File (Mame Only)\n"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:139
+msgid "Rom Extension"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:140
+msgid "Screen Saver"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:141
+msgid "Screen Saver Delay (secs)"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:142
+msgid "Screen Saver Slide Duration (secs)"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:143
+msgid "Screen Saver Type"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:144
+msgid "Select Joystick Control"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:145
+msgid "Select Key"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:146
+msgid "Select Mouse Control"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:147
+msgid "Set Category / Version File"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:149
+msgid "Set Filter"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:151
+msgid "Set XML / Data File"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:152
+msgid "Setup Filters..."
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:153
+msgid ""
+"Show scroll up / down arrows in Games, Options and History Viewer lists."
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:154
+msgid "Shuffle Playlist"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:155
+msgid "Start Wah!Cade in fullscreen mode"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:156
+msgid "The Control Panel Viewer layout file location (.lay)"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:157
+msgid "The background image (if any) for the history viewer window."
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:158
+msgid "The catver.ini file location"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:159
+msgid "The controls.ini file location"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:160
+msgid "The history.dat file"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:161
+msgid "The location of the emulator executable"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:162
+msgid ""
+"The order applications are launched prior to the emulator, eg 1,2,3 or 3,2,1 "
+"or 1,2 or 1 etc."
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:163
+msgid "This gets displayed in the Layout"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:164
+msgid "Title"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:165
+msgid "Use Joystick"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:166
+msgid "Use Keyboard"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:168
+msgid "Volume (%)"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:169
+msgid "Wah!Cade"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:170
+msgid "Wah!Cade Setup"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:171
+msgid "Wrap Lists"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:172
+msgid "XML / Data File"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:173
+msgid "[Joystick Action]"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:174 ../glade/layout_editor.glade.h:59
+msgid "_About"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:175 ../glade/layout_editor.glade.h:61
+msgid "_File"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:176 ../glade/layout_editor.glade.h:62
+msgid "_Help"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:177
+msgid "_Remove Game"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:178
+msgid "_Reset Filter"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:179
+msgid "n Games"
+msgstr ""
+
+#: ../glade/wahcade_setup.glade.h:180
+msgid ""
+"wahcade-cp-viewer\n"
+"wahcade-history-viewer"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:1
+msgid ""
+"0\n"
+"90\n"
+"180\n"
+"270"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:5
+msgid ""
+"1200\n"
+"1024\n"
+"768\n"
+"600\n"
+"480"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:10
+msgid ""
+"1600\n"
+"1280\n"
+"1024\n"
+"800\n"
+"640"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:15
+msgid "Background Colour"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:16
+msgid "Background Image"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:17
+msgid "Bar Colour"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:18
+msgid "CP Viewer"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:19
+msgid "Centre"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:20
+msgid "Control Panel Viewer Window"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:21
+msgid "Full Screen"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:22
+msgid "History Window"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:23
+msgid "Item Properties"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:24
+msgid "Item _Properties"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:25
+msgid "Layout"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:26
+msgid "Layout Properties"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:27
+msgid "Leave unchecked for Wah!Cade to auto-detect background images."
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:29
+msgid "M_essage Window"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:30
+msgid "Main Window"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:31
+msgid "Message Window"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:32
+msgid "Name"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:33
+msgid "Open History Layout"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:34
+msgid "Open _CP Viewer Layout"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:35
+msgid "Options Window"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:36
+msgid "Position (X,Y)"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:37
+msgid "Properties"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:38
+msgid "Properties On Top"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:40
+msgid "Rotation"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:41
+msgid "S_creen Properties"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:42
+msgid "Save C_P Viewer Layout As"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:43
+msgid "Save History Layout As"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:44
+msgid "Save Layout(s)"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:45
+msgid "Save Wah!Cade Layout _As"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:46
+msgid "Screen Properties"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:47
+msgid "Screen Saver Window"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:48
+msgid "Select _All (Visible)"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:49
+msgid "Selected Colour"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:50
+msgid "Set Background Image"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:51
+msgid "Size (Width x Height)"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:52
+msgid "Size (Width, Height)"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:53
+msgid "Text Alignment"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:54
+msgid "Text Colour"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:55
+msgid "Text Font"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:56
+msgid "Transparent"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:57
+msgid "Visible"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:58
+msgid "Wah!Cade Layout Editor"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:60
+msgid "_Edit"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:63
+msgid "_Main Window"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:64
+msgid "_Open Wah!Cade Layout"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:65
+msgid "_Options Window"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:66
+msgid "_Screen Saver Window"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:67
+msgid "_Select All"
+msgstr ""
+
+#: ../glade/layout_editor.glade.h:68
+msgid "_View"
+msgstr ""
